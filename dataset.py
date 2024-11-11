@@ -112,9 +112,9 @@ for i in range(1, num_transactions + 1):
 transactions = pd.DataFrame(transaction_records)
 
 # Save all dataframes to CSV files
-customers.to_csv("Customer_Dim.csv", index=False)
-accounts.to_csv("Account_Dim.csv", index=False)
-transaction_type_dim.to_csv("TransactionType_Dim.csv", index=False)
-branches.to_csv("Branch_Dim.csv", index=False)
-dates.to_csv("Date_Dim.csv", index=False)
-transactions.to_csv("Transaction_Fact.csv", index=False)
+customers.to_csv("CUSTOMERS.csv", index=False)
+accounts.to_csv("ACCOUNTS.csv", index=False)
+transaction_type_dim.to_csv("TRANSACTION_TYPES.csv", index=False)
+branches.to_csv("BRANCH.csv", index=False)
+dates.to_csv("DATE.csv", index=False)
+transactions.to_csv("TRANSACTIONS.csv", index=False)
