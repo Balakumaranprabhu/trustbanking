@@ -1,4 +1,4 @@
-TransactionTypeID,TransactionType,Description
+TRANSACTIONTYPEID,TRANSACTIONTYPE,DESCRIPTION
 1,Deposit,Transaction of type Deposit
 2,Withdrawal,Transaction of type Withdrawal
 3,Transfer,Transaction of type Transfer
