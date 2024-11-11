@@ -20,7 +20,7 @@ customers = pd.DataFrame({
     "DOB": [fake.date_of_birth(minimum_age=18, maximum_age=85) for _ in range(num_customers)],
     "Email": [fake.email() for _ in range(num_customers)],
     "Phone": [fake.phone_number() for _ in range(num_customers)],
-    "Address": [fake.address() for _ in range(num_customers)]
+    # "Address": [fake.address() for _ in range(num_customers)]
 })
 
 # Account Dimension
