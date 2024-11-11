@@ -1,0 +1,5 @@
+TransactionTypeID,TransactionType,Description
+1,Deposit,Transaction of type Deposit
+2,Withdrawal,Transaction of type Withdrawal
+3,Transfer,Transaction of type Transfer
+4,Payment,Transaction of type Payment
